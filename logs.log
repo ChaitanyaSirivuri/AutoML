@@ -1,0 +1,2544 @@
+2023-09-25 17:52:17,948:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:52:17,948:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:52:17,948:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:52:17,948:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:53:40,104:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/numba/core/decorators.py:262: NumbaDeprecationWarning: numba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-09-25 17:53:40,118:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/visions/backends/shared/nan_handling.py:51: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  def hasna(x: np.ndarray) -> bool:
+
+2023-09-25 17:53:40,510:WARNING:/Users/chaitanya/Documents/Projects/automl/main.py:7: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  from streamlit_pandas_profiling import st_profile_report
+
+2023-09-25 17:55:29,551:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:55:29,552:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:55:29,552:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:55:29,552:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 17:55:30,513:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/numba/core/decorators.py:262: NumbaDeprecationWarning: numba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-09-25 17:55:30,533:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/visions/backends/shared/nan_handling.py:51: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  def hasna(x: np.ndarray) -> bool:
+
+2023-09-25 17:55:30,611:WARNING:/Users/chaitanya/Documents/Projects/automl/main.py:7: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
+2023-09-25 17:55:42,982:INFO:PyCaret ClusteringExperiment
+2023-09-25 17:55:42,982:INFO:Logging name: cluster-default-name
+2023-09-25 17:55:42,982:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-09-25 17:55:42,982:INFO:version 3.1.0
+2023-09-25 17:55:42,982:INFO:Initializing setup()
+2023-09-25 17:55:42,982:INFO:self.USI: cf24
+2023-09-25 17:55:42,982:INFO:self._variable_keys: {'memory', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'log_plots_param', 'gpu_n_jobs_param', 'gpu_param', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:55:42,982:INFO:Checking environment
+2023-09-25 17:55:42,982:INFO:python_version: 3.10.12
+2023-09-25 17:55:42,982:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:55:42,982:INFO:machine: arm64
+2023-09-25 17:55:43,008:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:55:43,008:INFO:Memory: svmem(total=8589934592, available=2252963840, percent=73.8, used=3531423744, free=73613312, active=2179170304, inactive=2172796928, wired=1352253440)
+2023-09-25 17:55:43,008:INFO:Physical Core: 8
+2023-09-25 17:55:43,008:INFO:Logical Core: 8
+2023-09-25 17:55:43,008:INFO:Checking libraries
+2023-09-25 17:55:43,008:INFO:System:
+2023-09-25 17:55:43,008:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:55:43,008:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:55:43,008:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:55:43,008:INFO:PyCaret required dependencies:
+2023-09-25 17:55:43,553:INFO:                 pip: 23.2.1
+2023-09-25 17:55:43,553:INFO:          setuptools: 65.5.0
+2023-09-25 17:55:43,553:INFO:             pycaret: 3.1.0
+2023-09-25 17:55:43,553:INFO:             IPython: 8.15.0
+2023-09-25 17:55:43,553:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:55:43,553:INFO:                tqdm: 4.66.1
+2023-09-25 17:55:43,553:INFO:               numpy: 1.23.5
+2023-09-25 17:55:43,553:INFO:              pandas: 1.5.3
+2023-09-25 17:55:43,553:INFO:              jinja2: 3.1.2
+2023-09-25 17:55:43,553:INFO:               scipy: 1.10.1
+2023-09-25 17:55:43,553:INFO:              joblib: 1.3.2
+2023-09-25 17:55:43,553:INFO:             sklearn: 1.2.2
+2023-09-25 17:55:43,553:INFO:                pyod: 1.1.0
+2023-09-25 17:55:43,553:INFO:            imblearn: 0.11.0
+2023-09-25 17:55:43,553:INFO:   category_encoders: 2.6.2
+2023-09-25 17:55:43,553:INFO:            lightgbm: 4.1.0
+2023-09-25 17:55:43,553:INFO:               numba: 0.58.0
+2023-09-25 17:55:43,554:INFO:            requests: 2.31.0
+2023-09-25 17:55:43,554:INFO:          matplotlib: 3.8.0
+2023-09-25 17:55:43,554:INFO:          scikitplot: 0.3.7
+2023-09-25 17:55:43,554:INFO:         yellowbrick: 1.5
+2023-09-25 17:55:43,554:INFO:              plotly: 5.17.0
+2023-09-25 17:55:43,554:INFO:    plotly-resampler: Not installed
+2023-09-25 17:55:43,554:INFO:             kaleido: 0.2.1
+2023-09-25 17:55:43,554:INFO:           schemdraw: 0.15
+2023-09-25 17:55:43,554:INFO:         statsmodels: 0.14.0
+2023-09-25 17:55:43,554:INFO:              sktime: 0.21.1
+2023-09-25 17:55:43,554:INFO:               tbats: 1.1.3
+2023-09-25 17:55:43,554:INFO:            pmdarima: 2.0.3
+2023-09-25 17:55:43,554:INFO:              psutil: 5.9.5
+2023-09-25 17:55:43,554:INFO:          markupsafe: 2.1.3
+2023-09-25 17:55:43,554:INFO:             pickle5: Not installed
+2023-09-25 17:55:43,554:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:55:43,554:INFO:         deprecation: 2.1.0
+2023-09-25 17:55:43,554:INFO:              xxhash: 3.3.0
+2023-09-25 17:55:43,554:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:55:43,554:INFO:PyCaret optional dependencies:
+2023-09-25 17:55:43,564:INFO:                shap: Not installed
+2023-09-25 17:55:43,564:INFO:           interpret: Not installed
+2023-09-25 17:55:43,564:INFO:                umap: Not installed
+2023-09-25 17:55:43,564:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:55:43,564:INFO:  explainerdashboard: Not installed
+2023-09-25 17:55:43,564:INFO:             autoviz: Not installed
+2023-09-25 17:55:43,564:INFO:           fairlearn: Not installed
+2023-09-25 17:55:43,564:INFO:          deepchecks: Not installed
+2023-09-25 17:55:43,564:INFO:             xgboost: Not installed
+2023-09-25 17:55:43,564:INFO:            catboost: Not installed
+2023-09-25 17:55:43,564:INFO:              kmodes: Not installed
+2023-09-25 17:55:43,564:INFO:             mlxtend: Not installed
+2023-09-25 17:55:43,564:INFO:       statsforecast: Not installed
+2023-09-25 17:55:43,564:INFO:        tune_sklearn: Not installed
+2023-09-25 17:55:43,564:INFO:                 ray: Not installed
+2023-09-25 17:55:43,564:INFO:            hyperopt: Not installed
+2023-09-25 17:55:43,564:INFO:              optuna: Not installed
+2023-09-25 17:55:43,564:INFO:               skopt: Not installed
+2023-09-25 17:55:43,564:INFO:              mlflow: Not installed
+2023-09-25 17:55:43,564:INFO:              gradio: Not installed
+2023-09-25 17:55:43,564:INFO:             fastapi: Not installed
+2023-09-25 17:55:43,564:INFO:             uvicorn: Not installed
+2023-09-25 17:55:43,564:INFO:              m2cgen: Not installed
+2023-09-25 17:55:43,564:INFO:           evidently: Not installed
+2023-09-25 17:55:43,564:INFO:               fugue: Not installed
+2023-09-25 17:55:43,564:INFO:           streamlit: 1.27.0
+2023-09-25 17:55:43,564:INFO:             prophet: Not installed
+2023-09-25 17:55:43,564:INFO:None
+2023-09-25 17:55:43,564:INFO:Set up data.
+2023-09-25 17:55:43,571:INFO:Set up index.
+2023-09-25 17:55:43,571:INFO:Assigning column types.
+2023-09-25 17:55:43,573:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-09-25 17:55:43,573:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:55:43,573:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:55:43,574:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:55:43,574:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:55:43,574:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-09-25 17:55:43,574:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:55:43,574:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:55:43,576:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:55:43,576:INFO:Set up simple imputation.
+2023-09-25 17:55:43,577:INFO:Set up encoding of categorical features.
+2023-09-25 17:55:43,606:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:55:43,610:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Id', 'SepalLengthCm',
+                                             'SepalWidthCm', 'PetalLengthCm',
+                                             'PetalWidthCm'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=OneHotEncoder(cols=['Species'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-09-25 17:55:43,610:INFO:Creating final display dataframe.
+2023-09-25 17:55:43,633:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                  3924
+1        Original data shape              (150, 6)
+2     Transformed data shape              (150, 8)
+3           Numeric features                     5
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  cf24
+2023-09-25 17:55:43,636:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:55:43,636:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:55:43,636:INFO:setup() successfully completed in 0.66s...............
+2023-09-25 17:55:43,638:INFO:Initializing create_model()
+2023-09-25 17:55:43,638:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x281415840>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-09-25 17:55:43,638:INFO:Checking exceptions
+2023-09-25 17:55:43,698:INFO:Importing untrained model
+2023-09-25 17:55:43,698:INFO:K-Means Clustering Imported successfully
+2023-09-25 17:55:43,699:INFO:Fitting Model
+2023-09-25 17:55:43,722:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-09-25 17:55:44,048:INFO:KMeans(n_clusters=4, random_state=3924)
+2023-09-25 17:55:44,048:INFO:create_models() successfully completed......................................
+2023-09-25 17:55:44,048:INFO:Uploading results into container
+2023-09-25 17:55:44,052:INFO:Uploading model into container now
+2023-09-25 17:55:44,060:INFO:_master_model_container: 1
+2023-09-25 17:55:44,060:INFO:_display_container: 2
+2023-09-25 17:55:44,061:INFO:KMeans(n_clusters=4, random_state=3924)
+2023-09-25 17:55:44,061:INFO:create_model() successfully completed......................................
+2023-09-25 17:56:14,437:INFO:PyCaret ClusteringExperiment
+2023-09-25 17:56:14,437:INFO:Logging name: cluster-default-name
+2023-09-25 17:56:14,437:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-09-25 17:56:14,437:INFO:version 3.1.0
+2023-09-25 17:56:14,437:INFO:Initializing setup()
+2023-09-25 17:56:14,437:INFO:self.USI: ce20
+2023-09-25 17:56:14,438:INFO:self._variable_keys: {'memory', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'log_plots_param', 'gpu_n_jobs_param', 'gpu_param', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:56:14,438:INFO:Checking environment
+2023-09-25 17:56:14,438:INFO:python_version: 3.10.12
+2023-09-25 17:56:14,438:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:56:14,438:INFO:machine: arm64
+2023-09-25 17:56:14,438:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:56:14,438:INFO:Memory: svmem(total=8589934592, available=2227519488, percent=74.1, used=3484385280, free=171917312, active=2030190592, inactive=2039873536, wired=1454194688)
+2023-09-25 17:56:14,438:INFO:Physical Core: 8
+2023-09-25 17:56:14,438:INFO:Logical Core: 8
+2023-09-25 17:56:14,438:INFO:Checking libraries
+2023-09-25 17:56:14,438:INFO:System:
+2023-09-25 17:56:14,438:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:56:14,438:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:56:14,438:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:56:14,438:INFO:PyCaret required dependencies:
+2023-09-25 17:56:14,439:INFO:                 pip: 23.2.1
+2023-09-25 17:56:14,439:INFO:          setuptools: 65.5.0
+2023-09-25 17:56:14,439:INFO:             pycaret: 3.1.0
+2023-09-25 17:56:14,439:INFO:             IPython: 8.15.0
+2023-09-25 17:56:14,439:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:56:14,439:INFO:                tqdm: 4.66.1
+2023-09-25 17:56:14,439:INFO:               numpy: 1.23.5
+2023-09-25 17:56:14,439:INFO:              pandas: 1.5.3
+2023-09-25 17:56:14,439:INFO:              jinja2: 3.1.2
+2023-09-25 17:56:14,439:INFO:               scipy: 1.10.1
+2023-09-25 17:56:14,439:INFO:              joblib: 1.3.2
+2023-09-25 17:56:14,439:INFO:             sklearn: 1.2.2
+2023-09-25 17:56:14,439:INFO:                pyod: 1.1.0
+2023-09-25 17:56:14,439:INFO:            imblearn: 0.11.0
+2023-09-25 17:56:14,440:INFO:   category_encoders: 2.6.2
+2023-09-25 17:56:14,440:INFO:            lightgbm: 4.1.0
+2023-09-25 17:56:14,440:INFO:               numba: 0.58.0
+2023-09-25 17:56:14,440:INFO:            requests: 2.31.0
+2023-09-25 17:56:14,440:INFO:          matplotlib: 3.8.0
+2023-09-25 17:56:14,440:INFO:          scikitplot: 0.3.7
+2023-09-25 17:56:14,440:INFO:         yellowbrick: 1.5
+2023-09-25 17:56:14,440:INFO:              plotly: 5.17.0
+2023-09-25 17:56:14,440:INFO:    plotly-resampler: Not installed
+2023-09-25 17:56:14,440:INFO:             kaleido: 0.2.1
+2023-09-25 17:56:14,440:INFO:           schemdraw: 0.15
+2023-09-25 17:56:14,440:INFO:         statsmodels: 0.14.0
+2023-09-25 17:56:14,440:INFO:              sktime: 0.21.1
+2023-09-25 17:56:14,440:INFO:               tbats: 1.1.3
+2023-09-25 17:56:14,441:INFO:            pmdarima: 2.0.3
+2023-09-25 17:56:14,441:INFO:              psutil: 5.9.5
+2023-09-25 17:56:14,441:INFO:          markupsafe: 2.1.3
+2023-09-25 17:56:14,441:INFO:             pickle5: Not installed
+2023-09-25 17:56:14,441:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:56:14,441:INFO:         deprecation: 2.1.0
+2023-09-25 17:56:14,441:INFO:              xxhash: 3.3.0
+2023-09-25 17:56:14,441:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:56:14,441:INFO:PyCaret optional dependencies:
+2023-09-25 17:56:14,441:INFO:                shap: Not installed
+2023-09-25 17:56:14,441:INFO:           interpret: Not installed
+2023-09-25 17:56:14,441:INFO:                umap: Not installed
+2023-09-25 17:56:14,441:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:56:14,442:INFO:  explainerdashboard: Not installed
+2023-09-25 17:56:14,442:INFO:             autoviz: Not installed
+2023-09-25 17:56:14,442:INFO:           fairlearn: Not installed
+2023-09-25 17:56:14,442:INFO:          deepchecks: Not installed
+2023-09-25 17:56:14,442:INFO:             xgboost: Not installed
+2023-09-25 17:56:14,442:INFO:            catboost: Not installed
+2023-09-25 17:56:14,443:INFO:              kmodes: Not installed
+2023-09-25 17:56:14,443:INFO:             mlxtend: Not installed
+2023-09-25 17:56:14,443:INFO:       statsforecast: Not installed
+2023-09-25 17:56:14,443:INFO:        tune_sklearn: Not installed
+2023-09-25 17:56:14,443:INFO:                 ray: Not installed
+2023-09-25 17:56:14,443:INFO:            hyperopt: Not installed
+2023-09-25 17:56:14,443:INFO:              optuna: Not installed
+2023-09-25 17:56:14,443:INFO:               skopt: Not installed
+2023-09-25 17:56:14,443:INFO:              mlflow: Not installed
+2023-09-25 17:56:14,443:INFO:              gradio: Not installed
+2023-09-25 17:56:14,443:INFO:             fastapi: Not installed
+2023-09-25 17:56:14,443:INFO:             uvicorn: Not installed
+2023-09-25 17:56:14,444:INFO:              m2cgen: Not installed
+2023-09-25 17:56:14,444:INFO:           evidently: Not installed
+2023-09-25 17:56:14,444:INFO:               fugue: Not installed
+2023-09-25 17:56:14,444:INFO:           streamlit: 1.27.0
+2023-09-25 17:56:14,444:INFO:             prophet: Not installed
+2023-09-25 17:56:14,444:INFO:None
+2023-09-25 17:56:14,444:INFO:Set up data.
+2023-09-25 17:56:14,449:INFO:Set up index.
+2023-09-25 17:56:14,449:INFO:Assigning column types.
+2023-09-25 17:56:14,453:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-09-25 17:56:14,454:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:56:14,454:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:14,454:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:56:14,455:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:14,455:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-09-25 17:56:14,455:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:14,455:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:14,456:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:56:14,456:INFO:Set up simple imputation.
+2023-09-25 17:56:14,457:INFO:Set up encoding of categorical features.
+2023-09-25 17:56:14,486:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:56:14,490:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Id', 'SepalLengthCm',
+                                             'SepalWidthCm', 'PetalLengthCm',
+                                             'PetalWidthCm'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=OneHotEncoder(cols=['Species'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-09-25 17:56:14,490:INFO:Creating final display dataframe.
+2023-09-25 17:56:14,523:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                  1802
+1        Original data shape              (150, 6)
+2     Transformed data shape              (150, 8)
+3           Numeric features                     5
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  ce20
+2023-09-25 17:56:14,526:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:14,526:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:14,526:INFO:setup() successfully completed in 0.09s...............
+2023-09-25 17:56:14,528:INFO:Initializing create_model()
+2023-09-25 17:56:14,528:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x281417e20>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-09-25 17:56:14,528:INFO:Checking exceptions
+2023-09-25 17:56:14,551:INFO:Importing untrained model
+2023-09-25 17:56:14,551:INFO:K-Means Clustering Imported successfully
+2023-09-25 17:56:14,552:INFO:Fitting Model
+2023-09-25 17:56:14,576:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-09-25 17:56:14,593:INFO:KMeans(n_clusters=4, random_state=1802)
+2023-09-25 17:56:14,593:INFO:create_models() successfully completed......................................
+2023-09-25 17:56:14,593:INFO:Uploading results into container
+2023-09-25 17:56:14,595:INFO:Uploading model into container now
+2023-09-25 17:56:14,602:INFO:_master_model_container: 1
+2023-09-25 17:56:14,602:INFO:_display_container: 2
+2023-09-25 17:56:14,602:INFO:KMeans(n_clusters=4, random_state=1802)
+2023-09-25 17:56:14,602:INFO:create_model() successfully completed......................................
+2023-09-25 17:56:21,221:INFO:PyCaret ClusteringExperiment
+2023-09-25 17:56:21,221:INFO:Logging name: cluster-default-name
+2023-09-25 17:56:21,221:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-09-25 17:56:21,221:INFO:version 3.1.0
+2023-09-25 17:56:21,221:INFO:Initializing setup()
+2023-09-25 17:56:21,221:INFO:self.USI: ed48
+2023-09-25 17:56:21,221:INFO:self._variable_keys: {'memory', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'log_plots_param', 'gpu_n_jobs_param', 'gpu_param', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:56:21,221:INFO:Checking environment
+2023-09-25 17:56:21,221:INFO:python_version: 3.10.12
+2023-09-25 17:56:21,221:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:56:21,221:INFO:machine: arm64
+2023-09-25 17:56:21,221:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:56:21,221:INFO:Memory: svmem(total=8589934592, available=2234122240, percent=74.0, used=3478421504, free=121634816, active=2085109760, inactive=2096349184, wired=1393311744)
+2023-09-25 17:56:21,221:INFO:Physical Core: 8
+2023-09-25 17:56:21,221:INFO:Logical Core: 8
+2023-09-25 17:56:21,222:INFO:Checking libraries
+2023-09-25 17:56:21,222:INFO:System:
+2023-09-25 17:56:21,222:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:56:21,222:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:56:21,222:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:56:21,222:INFO:PyCaret required dependencies:
+2023-09-25 17:56:21,222:INFO:                 pip: 23.2.1
+2023-09-25 17:56:21,222:INFO:          setuptools: 65.5.0
+2023-09-25 17:56:21,222:INFO:             pycaret: 3.1.0
+2023-09-25 17:56:21,222:INFO:             IPython: 8.15.0
+2023-09-25 17:56:21,222:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:56:21,222:INFO:                tqdm: 4.66.1
+2023-09-25 17:56:21,222:INFO:               numpy: 1.23.5
+2023-09-25 17:56:21,222:INFO:              pandas: 1.5.3
+2023-09-25 17:56:21,222:INFO:              jinja2: 3.1.2
+2023-09-25 17:56:21,222:INFO:               scipy: 1.10.1
+2023-09-25 17:56:21,222:INFO:              joblib: 1.3.2
+2023-09-25 17:56:21,222:INFO:             sklearn: 1.2.2
+2023-09-25 17:56:21,222:INFO:                pyod: 1.1.0
+2023-09-25 17:56:21,223:INFO:            imblearn: 0.11.0
+2023-09-25 17:56:21,223:INFO:   category_encoders: 2.6.2
+2023-09-25 17:56:21,223:INFO:            lightgbm: 4.1.0
+2023-09-25 17:56:21,223:INFO:               numba: 0.58.0
+2023-09-25 17:56:21,223:INFO:            requests: 2.31.0
+2023-09-25 17:56:21,223:INFO:          matplotlib: 3.8.0
+2023-09-25 17:56:21,223:INFO:          scikitplot: 0.3.7
+2023-09-25 17:56:21,223:INFO:         yellowbrick: 1.5
+2023-09-25 17:56:21,223:INFO:              plotly: 5.17.0
+2023-09-25 17:56:21,223:INFO:    plotly-resampler: Not installed
+2023-09-25 17:56:21,223:INFO:             kaleido: 0.2.1
+2023-09-25 17:56:21,223:INFO:           schemdraw: 0.15
+2023-09-25 17:56:21,223:INFO:         statsmodels: 0.14.0
+2023-09-25 17:56:21,223:INFO:              sktime: 0.21.1
+2023-09-25 17:56:21,223:INFO:               tbats: 1.1.3
+2023-09-25 17:56:21,223:INFO:            pmdarima: 2.0.3
+2023-09-25 17:56:21,223:INFO:              psutil: 5.9.5
+2023-09-25 17:56:21,223:INFO:          markupsafe: 2.1.3
+2023-09-25 17:56:21,224:INFO:             pickle5: Not installed
+2023-09-25 17:56:21,224:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:56:21,224:INFO:         deprecation: 2.1.0
+2023-09-25 17:56:21,224:INFO:              xxhash: 3.3.0
+2023-09-25 17:56:21,224:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:56:21,224:INFO:PyCaret optional dependencies:
+2023-09-25 17:56:21,224:INFO:                shap: Not installed
+2023-09-25 17:56:21,224:INFO:           interpret: Not installed
+2023-09-25 17:56:21,224:INFO:                umap: Not installed
+2023-09-25 17:56:21,224:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:56:21,224:INFO:  explainerdashboard: Not installed
+2023-09-25 17:56:21,224:INFO:             autoviz: Not installed
+2023-09-25 17:56:21,224:INFO:           fairlearn: Not installed
+2023-09-25 17:56:21,224:INFO:          deepchecks: Not installed
+2023-09-25 17:56:21,224:INFO:             xgboost: Not installed
+2023-09-25 17:56:21,224:INFO:            catboost: Not installed
+2023-09-25 17:56:21,224:INFO:              kmodes: Not installed
+2023-09-25 17:56:21,225:INFO:             mlxtend: Not installed
+2023-09-25 17:56:21,225:INFO:       statsforecast: Not installed
+2023-09-25 17:56:21,225:INFO:        tune_sklearn: Not installed
+2023-09-25 17:56:21,225:INFO:                 ray: Not installed
+2023-09-25 17:56:21,225:INFO:            hyperopt: Not installed
+2023-09-25 17:56:21,225:INFO:              optuna: Not installed
+2023-09-25 17:56:21,225:INFO:               skopt: Not installed
+2023-09-25 17:56:21,225:INFO:              mlflow: Not installed
+2023-09-25 17:56:21,225:INFO:              gradio: Not installed
+2023-09-25 17:56:21,225:INFO:             fastapi: Not installed
+2023-09-25 17:56:21,225:INFO:             uvicorn: Not installed
+2023-09-25 17:56:21,225:INFO:              m2cgen: Not installed
+2023-09-25 17:56:21,225:INFO:           evidently: Not installed
+2023-09-25 17:56:21,225:INFO:               fugue: Not installed
+2023-09-25 17:56:21,225:INFO:           streamlit: 1.27.0
+2023-09-25 17:56:21,225:INFO:             prophet: Not installed
+2023-09-25 17:56:21,225:INFO:None
+2023-09-25 17:56:21,226:INFO:Set up data.
+2023-09-25 17:56:21,231:INFO:Set up index.
+2023-09-25 17:56:21,232:INFO:Assigning column types.
+2023-09-25 17:56:21,236:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-09-25 17:56:21,236:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:56:21,236:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:21,237:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:56:21,237:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:21,237:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-09-25 17:56:21,237:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:21,238:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:21,239:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:56:21,239:INFO:Set up simple imputation.
+2023-09-25 17:56:21,241:INFO:Set up encoding of categorical features.
+2023-09-25 17:56:21,270:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:56:21,276:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Id', 'SepalLengthCm',
+                                             'SepalWidthCm', 'PetalLengthCm',
+                                             'PetalWidthCm'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=OneHotEncoder(cols=['Species'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-09-25 17:56:21,276:INFO:Creating final display dataframe.
+2023-09-25 17:56:21,304:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                  7512
+1        Original data shape              (150, 6)
+2     Transformed data shape              (150, 8)
+3           Numeric features                     5
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  ed48
+2023-09-25 17:56:21,306:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:21,306:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:56:21,307:INFO:setup() successfully completed in 0.09s...............
+2023-09-25 17:56:21,308:INFO:Initializing create_model()
+2023-09-25 17:56:21,308:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x281414e50>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-09-25 17:56:21,308:INFO:Checking exceptions
+2023-09-25 17:56:21,328:INFO:Importing untrained model
+2023-09-25 17:56:21,329:INFO:K-Means Clustering Imported successfully
+2023-09-25 17:56:21,329:INFO:Fitting Model
+2023-09-25 17:56:21,348:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-09-25 17:56:21,364:INFO:KMeans(n_clusters=4, random_state=7512)
+2023-09-25 17:56:21,364:INFO:create_models() successfully completed......................................
+2023-09-25 17:56:21,364:INFO:Uploading results into container
+2023-09-25 17:56:21,367:INFO:Uploading model into container now
+2023-09-25 17:56:21,374:INFO:_master_model_container: 1
+2023-09-25 17:56:21,374:INFO:_display_container: 2
+2023-09-25 17:56:21,374:INFO:KMeans(n_clusters=4, random_state=7512)
+2023-09-25 17:56:21,375:INFO:create_model() successfully completed......................................
+2023-09-25 17:57:04,085:INFO:PyCaret ClusteringExperiment
+2023-09-25 17:57:04,085:INFO:Logging name: cluster-default-name
+2023-09-25 17:57:04,085:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-09-25 17:57:04,085:INFO:version 3.1.0
+2023-09-25 17:57:04,085:INFO:Initializing setup()
+2023-09-25 17:57:04,085:INFO:self.USI: 8a8d
+2023-09-25 17:57:04,085:INFO:self._variable_keys: {'memory', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'log_plots_param', 'gpu_n_jobs_param', 'gpu_param', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:57:04,085:INFO:Checking environment
+2023-09-25 17:57:04,085:INFO:python_version: 3.10.12
+2023-09-25 17:57:04,085:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:57:04,085:INFO:machine: arm64
+2023-09-25 17:57:04,086:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:57:04,086:INFO:Memory: svmem(total=8589934592, available=2257420288, percent=73.7, used=3544776704, free=107298816, active=2154708992, inactive=2144665600, wired=1390067712)
+2023-09-25 17:57:04,086:INFO:Physical Core: 8
+2023-09-25 17:57:04,086:INFO:Logical Core: 8
+2023-09-25 17:57:04,086:INFO:Checking libraries
+2023-09-25 17:57:04,086:INFO:System:
+2023-09-25 17:57:04,086:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:57:04,086:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:57:04,086:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:57:04,086:INFO:PyCaret required dependencies:
+2023-09-25 17:57:04,086:INFO:                 pip: 23.2.1
+2023-09-25 17:57:04,086:INFO:          setuptools: 65.5.0
+2023-09-25 17:57:04,086:INFO:             pycaret: 3.1.0
+2023-09-25 17:57:04,086:INFO:             IPython: 8.15.0
+2023-09-25 17:57:04,086:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:57:04,086:INFO:                tqdm: 4.66.1
+2023-09-25 17:57:04,086:INFO:               numpy: 1.23.5
+2023-09-25 17:57:04,086:INFO:              pandas: 1.5.3
+2023-09-25 17:57:04,086:INFO:              jinja2: 3.1.2
+2023-09-25 17:57:04,086:INFO:               scipy: 1.10.1
+2023-09-25 17:57:04,086:INFO:              joblib: 1.3.2
+2023-09-25 17:57:04,086:INFO:             sklearn: 1.2.2
+2023-09-25 17:57:04,086:INFO:                pyod: 1.1.0
+2023-09-25 17:57:04,086:INFO:            imblearn: 0.11.0
+2023-09-25 17:57:04,087:INFO:   category_encoders: 2.6.2
+2023-09-25 17:57:04,087:INFO:            lightgbm: 4.1.0
+2023-09-25 17:57:04,087:INFO:               numba: 0.58.0
+2023-09-25 17:57:04,087:INFO:            requests: 2.31.0
+2023-09-25 17:57:04,087:INFO:          matplotlib: 3.8.0
+2023-09-25 17:57:04,087:INFO:          scikitplot: 0.3.7
+2023-09-25 17:57:04,087:INFO:         yellowbrick: 1.5
+2023-09-25 17:57:04,087:INFO:              plotly: 5.17.0
+2023-09-25 17:57:04,087:INFO:    plotly-resampler: Not installed
+2023-09-25 17:57:04,087:INFO:             kaleido: 0.2.1
+2023-09-25 17:57:04,087:INFO:           schemdraw: 0.15
+2023-09-25 17:57:04,087:INFO:         statsmodels: 0.14.0
+2023-09-25 17:57:04,087:INFO:              sktime: 0.21.1
+2023-09-25 17:57:04,087:INFO:               tbats: 1.1.3
+2023-09-25 17:57:04,087:INFO:            pmdarima: 2.0.3
+2023-09-25 17:57:04,087:INFO:              psutil: 5.9.5
+2023-09-25 17:57:04,087:INFO:          markupsafe: 2.1.3
+2023-09-25 17:57:04,087:INFO:             pickle5: Not installed
+2023-09-25 17:57:04,087:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:57:04,087:INFO:         deprecation: 2.1.0
+2023-09-25 17:57:04,087:INFO:              xxhash: 3.3.0
+2023-09-25 17:57:04,087:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:57:04,087:INFO:PyCaret optional dependencies:
+2023-09-25 17:57:04,087:INFO:                shap: Not installed
+2023-09-25 17:57:04,087:INFO:           interpret: Not installed
+2023-09-25 17:57:04,087:INFO:                umap: Not installed
+2023-09-25 17:57:04,087:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:57:04,087:INFO:  explainerdashboard: Not installed
+2023-09-25 17:57:04,087:INFO:             autoviz: Not installed
+2023-09-25 17:57:04,088:INFO:           fairlearn: Not installed
+2023-09-25 17:57:04,088:INFO:          deepchecks: Not installed
+2023-09-25 17:57:04,088:INFO:             xgboost: Not installed
+2023-09-25 17:57:04,088:INFO:            catboost: Not installed
+2023-09-25 17:57:04,088:INFO:              kmodes: Not installed
+2023-09-25 17:57:04,088:INFO:             mlxtend: Not installed
+2023-09-25 17:57:04,088:INFO:       statsforecast: Not installed
+2023-09-25 17:57:04,088:INFO:        tune_sklearn: Not installed
+2023-09-25 17:57:04,088:INFO:                 ray: Not installed
+2023-09-25 17:57:04,088:INFO:            hyperopt: Not installed
+2023-09-25 17:57:04,088:INFO:              optuna: Not installed
+2023-09-25 17:57:04,088:INFO:               skopt: Not installed
+2023-09-25 17:57:04,088:INFO:              mlflow: Not installed
+2023-09-25 17:57:04,088:INFO:              gradio: Not installed
+2023-09-25 17:57:04,088:INFO:             fastapi: Not installed
+2023-09-25 17:57:04,088:INFO:             uvicorn: Not installed
+2023-09-25 17:57:04,088:INFO:              m2cgen: Not installed
+2023-09-25 17:57:04,088:INFO:           evidently: Not installed
+2023-09-25 17:57:04,088:INFO:               fugue: Not installed
+2023-09-25 17:57:04,088:INFO:           streamlit: 1.27.0
+2023-09-25 17:57:04,088:INFO:             prophet: Not installed
+2023-09-25 17:57:04,088:INFO:None
+2023-09-25 17:57:04,088:INFO:Set up data.
+2023-09-25 17:57:04,091:INFO:Set up index.
+2023-09-25 17:57:04,091:INFO:Assigning column types.
+2023-09-25 17:57:04,093:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-09-25 17:57:04,093:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:57:04,093:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:04,094:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:57:04,094:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:04,094:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-09-25 17:57:04,094:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:04,094:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:04,095:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:57:04,095:INFO:Set up simple imputation.
+2023-09-25 17:57:04,096:INFO:Set up encoding of categorical features.
+2023-09-25 17:57:04,123:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:57:04,127:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Id', 'SepalLengthCm',
+                                             'SepalWidthCm', 'PetalLengthCm',
+                                             'PetalWidthCm'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=OneHotEncoder(cols=['Species'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-09-25 17:57:04,127:INFO:Creating final display dataframe.
+2023-09-25 17:57:04,154:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                  7670
+1        Original data shape              (150, 6)
+2     Transformed data shape              (150, 8)
+3           Numeric features                     5
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  8a8d
+2023-09-25 17:57:04,157:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:04,157:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:04,157:INFO:setup() successfully completed in 0.07s...............
+2023-09-25 17:57:04,158:INFO:Initializing create_model()
+2023-09-25 17:57:04,158:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x16df8ef20>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-09-25 17:57:04,159:INFO:Checking exceptions
+2023-09-25 17:57:04,179:INFO:Importing untrained model
+2023-09-25 17:57:04,179:INFO:K-Means Clustering Imported successfully
+2023-09-25 17:57:04,179:INFO:Fitting Model
+2023-09-25 17:57:04,199:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-09-25 17:57:04,214:INFO:KMeans(n_clusters=4, random_state=7670)
+2023-09-25 17:57:04,214:INFO:create_models() successfully completed......................................
+2023-09-25 17:57:04,214:INFO:Uploading results into container
+2023-09-25 17:57:04,217:INFO:Uploading model into container now
+2023-09-25 17:57:04,225:INFO:_master_model_container: 1
+2023-09-25 17:57:04,225:INFO:_display_container: 2
+2023-09-25 17:57:04,225:INFO:KMeans(n_clusters=4, random_state=7670)
+2023-09-25 17:57:04,225:INFO:create_model() successfully completed......................................
+2023-09-25 17:57:21,954:INFO:PyCaret ClusteringExperiment
+2023-09-25 17:57:21,954:INFO:Logging name: cluster-default-name
+2023-09-25 17:57:21,954:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-09-25 17:57:21,954:INFO:version 3.1.0
+2023-09-25 17:57:21,954:INFO:Initializing setup()
+2023-09-25 17:57:21,954:INFO:self.USI: 0567
+2023-09-25 17:57:21,954:INFO:self._variable_keys: {'memory', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'log_plots_param', 'gpu_n_jobs_param', 'gpu_param', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:57:21,954:INFO:Checking environment
+2023-09-25 17:57:21,954:INFO:python_version: 3.10.12
+2023-09-25 17:57:21,954:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:57:21,954:INFO:machine: arm64
+2023-09-25 17:57:21,955:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:57:21,955:INFO:Memory: svmem(total=8589934592, available=2289467392, percent=73.3, used=3555180544, free=89718784, active=2260942848, inactive=2185986048, wired=1294237696)
+2023-09-25 17:57:21,955:INFO:Physical Core: 8
+2023-09-25 17:57:21,955:INFO:Logical Core: 8
+2023-09-25 17:57:21,955:INFO:Checking libraries
+2023-09-25 17:57:21,955:INFO:System:
+2023-09-25 17:57:21,955:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:57:21,955:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:57:21,955:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:57:21,955:INFO:PyCaret required dependencies:
+2023-09-25 17:57:21,955:INFO:                 pip: 23.2.1
+2023-09-25 17:57:21,955:INFO:          setuptools: 65.5.0
+2023-09-25 17:57:21,955:INFO:             pycaret: 3.1.0
+2023-09-25 17:57:21,955:INFO:             IPython: 8.15.0
+2023-09-25 17:57:21,955:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:57:21,955:INFO:                tqdm: 4.66.1
+2023-09-25 17:57:21,955:INFO:               numpy: 1.23.5
+2023-09-25 17:57:21,955:INFO:              pandas: 1.5.3
+2023-09-25 17:57:21,956:INFO:              jinja2: 3.1.2
+2023-09-25 17:57:21,956:INFO:               scipy: 1.10.1
+2023-09-25 17:57:21,956:INFO:              joblib: 1.3.2
+2023-09-25 17:57:21,956:INFO:             sklearn: 1.2.2
+2023-09-25 17:57:21,956:INFO:                pyod: 1.1.0
+2023-09-25 17:57:21,956:INFO:            imblearn: 0.11.0
+2023-09-25 17:57:21,956:INFO:   category_encoders: 2.6.2
+2023-09-25 17:57:21,956:INFO:            lightgbm: 4.1.0
+2023-09-25 17:57:21,956:INFO:               numba: 0.58.0
+2023-09-25 17:57:21,956:INFO:            requests: 2.31.0
+2023-09-25 17:57:21,956:INFO:          matplotlib: 3.8.0
+2023-09-25 17:57:21,956:INFO:          scikitplot: 0.3.7
+2023-09-25 17:57:21,956:INFO:         yellowbrick: 1.5
+2023-09-25 17:57:21,956:INFO:              plotly: 5.17.0
+2023-09-25 17:57:21,956:INFO:    plotly-resampler: Not installed
+2023-09-25 17:57:21,956:INFO:             kaleido: 0.2.1
+2023-09-25 17:57:21,956:INFO:           schemdraw: 0.15
+2023-09-25 17:57:21,956:INFO:         statsmodels: 0.14.0
+2023-09-25 17:57:21,956:INFO:              sktime: 0.21.1
+2023-09-25 17:57:21,956:INFO:               tbats: 1.1.3
+2023-09-25 17:57:21,956:INFO:            pmdarima: 2.0.3
+2023-09-25 17:57:21,956:INFO:              psutil: 5.9.5
+2023-09-25 17:57:21,957:INFO:          markupsafe: 2.1.3
+2023-09-25 17:57:21,957:INFO:             pickle5: Not installed
+2023-09-25 17:57:21,957:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:57:21,957:INFO:         deprecation: 2.1.0
+2023-09-25 17:57:21,957:INFO:              xxhash: 3.3.0
+2023-09-25 17:57:21,957:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:57:21,957:INFO:PyCaret optional dependencies:
+2023-09-25 17:57:21,957:INFO:                shap: Not installed
+2023-09-25 17:57:21,957:INFO:           interpret: Not installed
+2023-09-25 17:57:21,957:INFO:                umap: Not installed
+2023-09-25 17:57:21,957:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:57:21,957:INFO:  explainerdashboard: Not installed
+2023-09-25 17:57:21,957:INFO:             autoviz: Not installed
+2023-09-25 17:57:21,957:INFO:           fairlearn: Not installed
+2023-09-25 17:57:21,957:INFO:          deepchecks: Not installed
+2023-09-25 17:57:21,957:INFO:             xgboost: Not installed
+2023-09-25 17:57:21,957:INFO:            catboost: Not installed
+2023-09-25 17:57:21,957:INFO:              kmodes: Not installed
+2023-09-25 17:57:21,957:INFO:             mlxtend: Not installed
+2023-09-25 17:57:21,957:INFO:       statsforecast: Not installed
+2023-09-25 17:57:21,958:INFO:        tune_sklearn: Not installed
+2023-09-25 17:57:21,958:INFO:                 ray: Not installed
+2023-09-25 17:57:21,958:INFO:            hyperopt: Not installed
+2023-09-25 17:57:21,958:INFO:              optuna: Not installed
+2023-09-25 17:57:21,958:INFO:               skopt: Not installed
+2023-09-25 17:57:21,958:INFO:              mlflow: Not installed
+2023-09-25 17:57:21,958:INFO:              gradio: Not installed
+2023-09-25 17:57:21,958:INFO:             fastapi: Not installed
+2023-09-25 17:57:21,958:INFO:             uvicorn: Not installed
+2023-09-25 17:57:21,958:INFO:              m2cgen: Not installed
+2023-09-25 17:57:21,958:INFO:           evidently: Not installed
+2023-09-25 17:57:21,958:INFO:               fugue: Not installed
+2023-09-25 17:57:21,959:INFO:           streamlit: 1.27.0
+2023-09-25 17:57:21,959:INFO:             prophet: Not installed
+2023-09-25 17:57:21,959:INFO:None
+2023-09-25 17:57:21,959:INFO:Set up data.
+2023-09-25 17:57:21,963:INFO:Set up index.
+2023-09-25 17:57:21,964:INFO:Assigning column types.
+2023-09-25 17:57:21,967:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-09-25 17:57:21,968:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:57:21,968:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:21,968:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:57:21,968:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:21,968:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-09-25 17:57:21,969:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:21,969:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:21,971:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:57:21,971:INFO:Set up simple imputation.
+2023-09-25 17:57:21,972:INFO:Set up encoding of categorical features.
+2023-09-25 17:57:21,999:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:57:22,004:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Id', 'SepalLengthCm',
+                                             'SepalWidthCm', 'PetalLengthCm',
+                                             'PetalWidthCm'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=OneHotEncoder(cols=['Species'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-09-25 17:57:22,004:INFO:Creating final display dataframe.
+2023-09-25 17:57:22,028:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                  7384
+1        Original data shape              (150, 6)
+2     Transformed data shape              (150, 8)
+3           Numeric features                     5
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  0567
+2023-09-25 17:57:22,031:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:22,031:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:57:22,031:INFO:setup() successfully completed in 0.08s...............
+2023-09-25 17:57:22,032:INFO:Initializing create_model()
+2023-09-25 17:57:22,033:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x12787a500>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-09-25 17:57:22,033:INFO:Checking exceptions
+2023-09-25 17:57:22,052:INFO:Importing untrained model
+2023-09-25 17:57:22,053:INFO:K-Means Clustering Imported successfully
+2023-09-25 17:57:22,054:INFO:Fitting Model
+2023-09-25 17:57:22,073:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-09-25 17:57:22,087:INFO:KMeans(n_clusters=4, random_state=7384)
+2023-09-25 17:57:22,088:INFO:create_models() successfully completed......................................
+2023-09-25 17:57:22,088:INFO:Uploading results into container
+2023-09-25 17:57:22,090:INFO:Uploading model into container now
+2023-09-25 17:57:22,098:INFO:_master_model_container: 1
+2023-09-25 17:57:22,098:INFO:_display_container: 2
+2023-09-25 17:57:22,099:INFO:KMeans(n_clusters=4, random_state=7384)
+2023-09-25 17:57:22,099:INFO:create_model() successfully completed......................................
+2023-09-25 17:58:44,120:INFO:PyCaret ClusteringExperiment
+2023-09-25 17:58:44,121:INFO:Logging name: cluster-default-name
+2023-09-25 17:58:44,121:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-09-25 17:58:44,121:INFO:version 3.1.0
+2023-09-25 17:58:44,121:INFO:Initializing setup()
+2023-09-25 17:58:44,121:INFO:self.USI: 41c1
+2023-09-25 17:58:44,121:INFO:self._variable_keys: {'memory', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'log_plots_param', 'gpu_n_jobs_param', 'gpu_param', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:58:44,121:INFO:Checking environment
+2023-09-25 17:58:44,122:INFO:python_version: 3.10.12
+2023-09-25 17:58:44,122:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:58:44,122:INFO:machine: arm64
+2023-09-25 17:58:44,122:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:58:44,122:INFO:Memory: svmem(total=8589934592, available=2264547328, percent=73.6, used=3565977600, free=59719680, active=2252652544, inactive=2197340160, wired=1313325056)
+2023-09-25 17:58:44,122:INFO:Physical Core: 8
+2023-09-25 17:58:44,122:INFO:Logical Core: 8
+2023-09-25 17:58:44,122:INFO:Checking libraries
+2023-09-25 17:58:44,122:INFO:System:
+2023-09-25 17:58:44,122:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:58:44,122:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:58:44,122:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:58:44,122:INFO:PyCaret required dependencies:
+2023-09-25 17:58:44,122:INFO:                 pip: 23.2.1
+2023-09-25 17:58:44,122:INFO:          setuptools: 65.5.0
+2023-09-25 17:58:44,123:INFO:             pycaret: 3.1.0
+2023-09-25 17:58:44,123:INFO:             IPython: 8.15.0
+2023-09-25 17:58:44,123:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:58:44,123:INFO:                tqdm: 4.66.1
+2023-09-25 17:58:44,123:INFO:               numpy: 1.23.5
+2023-09-25 17:58:44,123:INFO:              pandas: 1.5.3
+2023-09-25 17:58:44,123:INFO:              jinja2: 3.1.2
+2023-09-25 17:58:44,123:INFO:               scipy: 1.10.1
+2023-09-25 17:58:44,123:INFO:              joblib: 1.3.2
+2023-09-25 17:58:44,123:INFO:             sklearn: 1.2.2
+2023-09-25 17:58:44,123:INFO:                pyod: 1.1.0
+2023-09-25 17:58:44,123:INFO:            imblearn: 0.11.0
+2023-09-25 17:58:44,123:INFO:   category_encoders: 2.6.2
+2023-09-25 17:58:44,123:INFO:            lightgbm: 4.1.0
+2023-09-25 17:58:44,123:INFO:               numba: 0.58.0
+2023-09-25 17:58:44,123:INFO:            requests: 2.31.0
+2023-09-25 17:58:44,123:INFO:          matplotlib: 3.8.0
+2023-09-25 17:58:44,124:INFO:          scikitplot: 0.3.7
+2023-09-25 17:58:44,124:INFO:         yellowbrick: 1.5
+2023-09-25 17:58:44,124:INFO:              plotly: 5.17.0
+2023-09-25 17:58:44,124:INFO:    plotly-resampler: Not installed
+2023-09-25 17:58:44,124:INFO:             kaleido: 0.2.1
+2023-09-25 17:58:44,124:INFO:           schemdraw: 0.15
+2023-09-25 17:58:44,124:INFO:         statsmodels: 0.14.0
+2023-09-25 17:58:44,124:INFO:              sktime: 0.21.1
+2023-09-25 17:58:44,124:INFO:               tbats: 1.1.3
+2023-09-25 17:58:44,124:INFO:            pmdarima: 2.0.3
+2023-09-25 17:58:44,124:INFO:              psutil: 5.9.5
+2023-09-25 17:58:44,124:INFO:          markupsafe: 2.1.3
+2023-09-25 17:58:44,124:INFO:             pickle5: Not installed
+2023-09-25 17:58:44,124:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:58:44,124:INFO:         deprecation: 2.1.0
+2023-09-25 17:58:44,124:INFO:              xxhash: 3.3.0
+2023-09-25 17:58:44,124:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:58:44,124:INFO:PyCaret optional dependencies:
+2023-09-25 17:58:44,125:INFO:                shap: Not installed
+2023-09-25 17:58:44,125:INFO:           interpret: Not installed
+2023-09-25 17:58:44,125:INFO:                umap: Not installed
+2023-09-25 17:58:44,125:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:58:44,125:INFO:  explainerdashboard: Not installed
+2023-09-25 17:58:44,125:INFO:             autoviz: Not installed
+2023-09-25 17:58:44,125:INFO:           fairlearn: Not installed
+2023-09-25 17:58:44,125:INFO:          deepchecks: Not installed
+2023-09-25 17:58:44,126:INFO:             xgboost: Not installed
+2023-09-25 17:58:44,126:INFO:            catboost: Not installed
+2023-09-25 17:58:44,126:INFO:              kmodes: Not installed
+2023-09-25 17:58:44,126:INFO:             mlxtend: Not installed
+2023-09-25 17:58:44,126:INFO:       statsforecast: Not installed
+2023-09-25 17:58:44,126:INFO:        tune_sklearn: Not installed
+2023-09-25 17:58:44,126:INFO:                 ray: Not installed
+2023-09-25 17:58:44,126:INFO:            hyperopt: Not installed
+2023-09-25 17:58:44,126:INFO:              optuna: Not installed
+2023-09-25 17:58:44,126:INFO:               skopt: Not installed
+2023-09-25 17:58:44,126:INFO:              mlflow: Not installed
+2023-09-25 17:58:44,126:INFO:              gradio: Not installed
+2023-09-25 17:58:44,127:INFO:             fastapi: Not installed
+2023-09-25 17:58:44,127:INFO:             uvicorn: Not installed
+2023-09-25 17:58:44,127:INFO:              m2cgen: Not installed
+2023-09-25 17:58:44,127:INFO:           evidently: Not installed
+2023-09-25 17:58:44,127:INFO:               fugue: Not installed
+2023-09-25 17:58:44,127:INFO:           streamlit: 1.27.0
+2023-09-25 17:58:44,127:INFO:             prophet: Not installed
+2023-09-25 17:58:44,127:INFO:None
+2023-09-25 17:58:44,127:INFO:Set up data.
+2023-09-25 17:58:44,132:INFO:Set up index.
+2023-09-25 17:58:44,132:INFO:Assigning column types.
+2023-09-25 17:58:44,134:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-09-25 17:58:44,135:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:58:44,135:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:58:44,135:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:58:44,135:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:58:44,135:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-09-25 17:58:44,135:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:58:44,136:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:58:44,136:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:58:44,137:INFO:Set up simple imputation.
+2023-09-25 17:58:44,138:INFO:Set up encoding of categorical features.
+2023-09-25 17:58:44,166:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:58:44,170:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Id', 'SepalLengthCm',
+                                             'SepalWidthCm', 'PetalLengthCm',
+                                             'PetalWidthCm'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=OneHotEncoder(cols=['Species'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-09-25 17:58:44,170:INFO:Creating final display dataframe.
+2023-09-25 17:58:44,196:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                  6181
+1        Original data shape              (150, 6)
+2     Transformed data shape              (150, 8)
+3           Numeric features                     5
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  41c1
+2023-09-25 17:58:44,199:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:58:44,199:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:58:44,199:INFO:setup() successfully completed in 0.08s...............
+2023-09-25 17:58:44,201:INFO:Initializing create_model()
+2023-09-25 17:58:44,201:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x127071a50>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-09-25 17:58:44,201:INFO:Checking exceptions
+2023-09-25 17:58:44,221:INFO:Importing untrained model
+2023-09-25 17:58:44,221:INFO:K-Means Clustering Imported successfully
+2023-09-25 17:58:44,222:INFO:Fitting Model
+2023-09-25 17:58:44,242:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-09-25 17:58:44,265:INFO:KMeans(n_clusters=4, random_state=6181)
+2023-09-25 17:58:44,265:INFO:create_models() successfully completed......................................
+2023-09-25 17:58:44,266:INFO:Uploading results into container
+2023-09-25 17:58:44,267:INFO:Uploading model into container now
+2023-09-25 17:58:44,275:INFO:_master_model_container: 1
+2023-09-25 17:58:44,275:INFO:_display_container: 2
+2023-09-25 17:58:44,275:INFO:KMeans(n_clusters=4, random_state=6181)
+2023-09-25 17:58:44,275:INFO:create_model() successfully completed......................................
+2023-09-25 17:58:44,367:INFO:Initializing assign_model()
+2023-09-25 17:58:44,368:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x127071a50>, model=KMeans(n_clusters=4, random_state=6181), transformation=False, score=True, verbose=True)
+2023-09-25 17:58:44,368:INFO:Checking exceptions
+2023-09-25 17:58:44,368:INFO:Determining Trained Model
+2023-09-25 17:58:44,368:INFO:Trained Model : K-Means Clustering
+2023-09-25 17:58:44,368:INFO:Copying data
+2023-09-25 17:58:44,369:INFO:(150, 7)
+2023-09-25 17:58:44,369:INFO:assign_model() successfully completed......................................
+2023-09-25 17:59:06,372:INFO:PyCaret ClusteringExperiment
+2023-09-25 17:59:06,373:INFO:Logging name: cluster-default-name
+2023-09-25 17:59:06,373:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-09-25 17:59:06,373:INFO:version 3.1.0
+2023-09-25 17:59:06,373:INFO:Initializing setup()
+2023-09-25 17:59:06,373:INFO:self.USI: 5c8d
+2023-09-25 17:59:06,373:INFO:self._variable_keys: {'memory', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'log_plots_param', 'gpu_n_jobs_param', 'gpu_param', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:59:06,373:INFO:Checking environment
+2023-09-25 17:59:06,373:INFO:python_version: 3.10.12
+2023-09-25 17:59:06,373:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:59:06,374:INFO:machine: arm64
+2023-09-25 17:59:06,374:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:59:06,374:INFO:Memory: svmem(total=8589934592, available=2274066432, percent=73.5, used=3492200448, free=137740288, active=2143551488, inactive=2125955072, wired=1348648960)
+2023-09-25 17:59:06,374:INFO:Physical Core: 8
+2023-09-25 17:59:06,374:INFO:Logical Core: 8
+2023-09-25 17:59:06,374:INFO:Checking libraries
+2023-09-25 17:59:06,374:INFO:System:
+2023-09-25 17:59:06,374:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:59:06,374:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:59:06,374:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:59:06,374:INFO:PyCaret required dependencies:
+2023-09-25 17:59:06,374:INFO:                 pip: 23.2.1
+2023-09-25 17:59:06,374:INFO:          setuptools: 65.5.0
+2023-09-25 17:59:06,374:INFO:             pycaret: 3.1.0
+2023-09-25 17:59:06,374:INFO:             IPython: 8.15.0
+2023-09-25 17:59:06,374:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:59:06,375:INFO:                tqdm: 4.66.1
+2023-09-25 17:59:06,375:INFO:               numpy: 1.23.5
+2023-09-25 17:59:06,375:INFO:              pandas: 1.5.3
+2023-09-25 17:59:06,375:INFO:              jinja2: 3.1.2
+2023-09-25 17:59:06,375:INFO:               scipy: 1.10.1
+2023-09-25 17:59:06,375:INFO:              joblib: 1.3.2
+2023-09-25 17:59:06,375:INFO:             sklearn: 1.2.2
+2023-09-25 17:59:06,375:INFO:                pyod: 1.1.0
+2023-09-25 17:59:06,375:INFO:            imblearn: 0.11.0
+2023-09-25 17:59:06,375:INFO:   category_encoders: 2.6.2
+2023-09-25 17:59:06,375:INFO:            lightgbm: 4.1.0
+2023-09-25 17:59:06,375:INFO:               numba: 0.58.0
+2023-09-25 17:59:06,375:INFO:            requests: 2.31.0
+2023-09-25 17:59:06,375:INFO:          matplotlib: 3.8.0
+2023-09-25 17:59:06,375:INFO:          scikitplot: 0.3.7
+2023-09-25 17:59:06,375:INFO:         yellowbrick: 1.5
+2023-09-25 17:59:06,375:INFO:              plotly: 5.17.0
+2023-09-25 17:59:06,375:INFO:    plotly-resampler: Not installed
+2023-09-25 17:59:06,375:INFO:             kaleido: 0.2.1
+2023-09-25 17:59:06,375:INFO:           schemdraw: 0.15
+2023-09-25 17:59:06,375:INFO:         statsmodels: 0.14.0
+2023-09-25 17:59:06,376:INFO:              sktime: 0.21.1
+2023-09-25 17:59:06,376:INFO:               tbats: 1.1.3
+2023-09-25 17:59:06,376:INFO:            pmdarima: 2.0.3
+2023-09-25 17:59:06,376:INFO:              psutil: 5.9.5
+2023-09-25 17:59:06,376:INFO:          markupsafe: 2.1.3
+2023-09-25 17:59:06,376:INFO:             pickle5: Not installed
+2023-09-25 17:59:06,376:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:59:06,376:INFO:         deprecation: 2.1.0
+2023-09-25 17:59:06,376:INFO:              xxhash: 3.3.0
+2023-09-25 17:59:06,376:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:59:06,376:INFO:PyCaret optional dependencies:
+2023-09-25 17:59:06,376:INFO:                shap: Not installed
+2023-09-25 17:59:06,376:INFO:           interpret: Not installed
+2023-09-25 17:59:06,376:INFO:                umap: Not installed
+2023-09-25 17:59:06,376:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:59:06,376:INFO:  explainerdashboard: Not installed
+2023-09-25 17:59:06,376:INFO:             autoviz: Not installed
+2023-09-25 17:59:06,377:INFO:           fairlearn: Not installed
+2023-09-25 17:59:06,377:INFO:          deepchecks: Not installed
+2023-09-25 17:59:06,377:INFO:             xgboost: Not installed
+2023-09-25 17:59:06,377:INFO:            catboost: Not installed
+2023-09-25 17:59:06,377:INFO:              kmodes: Not installed
+2023-09-25 17:59:06,377:INFO:             mlxtend: Not installed
+2023-09-25 17:59:06,377:INFO:       statsforecast: Not installed
+2023-09-25 17:59:06,378:INFO:        tune_sklearn: Not installed
+2023-09-25 17:59:06,378:INFO:                 ray: Not installed
+2023-09-25 17:59:06,378:INFO:            hyperopt: Not installed
+2023-09-25 17:59:06,378:INFO:              optuna: Not installed
+2023-09-25 17:59:06,378:INFO:               skopt: Not installed
+2023-09-25 17:59:06,378:INFO:              mlflow: Not installed
+2023-09-25 17:59:06,378:INFO:              gradio: Not installed
+2023-09-25 17:59:06,379:INFO:             fastapi: Not installed
+2023-09-25 17:59:06,379:INFO:             uvicorn: Not installed
+2023-09-25 17:59:06,379:INFO:              m2cgen: Not installed
+2023-09-25 17:59:06,379:INFO:           evidently: Not installed
+2023-09-25 17:59:06,379:INFO:               fugue: Not installed
+2023-09-25 17:59:06,379:INFO:           streamlit: 1.27.0
+2023-09-25 17:59:06,379:INFO:             prophet: Not installed
+2023-09-25 17:59:06,379:INFO:None
+2023-09-25 17:59:06,379:INFO:Set up data.
+2023-09-25 17:59:06,384:INFO:Set up index.
+2023-09-25 17:59:06,384:INFO:Assigning column types.
+2023-09-25 17:59:06,386:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-09-25 17:59:06,387:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:59:06,387:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:06,387:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-09-25 17:59:06,387:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:06,387:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-09-25 17:59:06,387:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:06,387:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:06,388:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:59:06,388:INFO:Set up simple imputation.
+2023-09-25 17:59:06,389:INFO:Set up encoding of categorical features.
+2023-09-25 17:59:06,417:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:59:06,422:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Id', 'SepalLengthCm',
+                                             'SepalWidthCm', 'PetalLengthCm',
+                                             'PetalWidthCm'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Species'],
+                                    transformer=OneHotEncoder(cols=['Species'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-09-25 17:59:06,422:INFO:Creating final display dataframe.
+2023-09-25 17:59:06,448:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                  2489
+1        Original data shape              (150, 6)
+2     Transformed data shape              (150, 8)
+3           Numeric features                     5
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  5c8d
+2023-09-25 17:59:06,451:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:06,451:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:06,451:INFO:setup() successfully completed in 0.08s...............
+2023-09-25 17:59:06,452:INFO:Initializing create_model()
+2023-09-25 17:59:06,452:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x170187d60>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-09-25 17:59:06,452:INFO:Checking exceptions
+2023-09-25 17:59:06,473:INFO:Importing untrained model
+2023-09-25 17:59:06,473:INFO:K-Means Clustering Imported successfully
+2023-09-25 17:59:06,474:INFO:Fitting Model
+2023-09-25 17:59:06,494:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-09-25 17:59:06,507:INFO:KMeans(n_clusters=4, random_state=2489)
+2023-09-25 17:59:06,508:INFO:create_models() successfully completed......................................
+2023-09-25 17:59:06,508:INFO:Uploading results into container
+2023-09-25 17:59:06,512:INFO:Uploading model into container now
+2023-09-25 17:59:06,520:INFO:_master_model_container: 1
+2023-09-25 17:59:06,526:INFO:_display_container: 2
+2023-09-25 17:59:06,527:INFO:KMeans(n_clusters=4, random_state=2489)
+2023-09-25 17:59:06,527:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:06,629:INFO:Initializing assign_model()
+2023-09-25 17:59:06,629:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x170187d60>, model=KMeans(n_clusters=4, random_state=2489), transformation=False, score=True, verbose=True)
+2023-09-25 17:59:06,629:INFO:Checking exceptions
+2023-09-25 17:59:06,629:INFO:Determining Trained Model
+2023-09-25 17:59:06,630:INFO:Trained Model : K-Means Clustering
+2023-09-25 17:59:06,630:INFO:Copying data
+2023-09-25 17:59:06,630:INFO:(150, 7)
+2023-09-25 17:59:06,631:INFO:assign_model() successfully completed......................................
+2023-09-25 17:59:19,475:INFO:PyCaret ClassificationExperiment
+2023-09-25 17:59:19,475:INFO:Logging name: clf-default-name
+2023-09-25 17:59:19,475:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-09-25 17:59:19,475:INFO:version 3.1.0
+2023-09-25 17:59:19,475:INFO:Initializing setup()
+2023-09-25 17:59:19,475:INFO:self.USI: 7a1d
+2023-09-25 17:59:19,475:INFO:self._variable_keys: {'y_test', 'memory', 'y', 'fold_generator', 'USI', '_ml_usecase', 'logging_param', 'n_jobs_param', 'fold_groups_param', 'fix_imbalance', 'X', 'exp_id', '_available_plots', 'pipeline', 'exp_name_log', 'X_test', 'log_plots_param', 'target_param', 'X_train', 'gpu_n_jobs_param', 'fold_shuffle_param', 'gpu_param', 'is_multiclass', 'y_train', 'data', 'html_param', 'idx', 'seed'}
+2023-09-25 17:59:19,475:INFO:Checking environment
+2023-09-25 17:59:19,475:INFO:python_version: 3.10.12
+2023-09-25 17:59:19,475:INFO:python_build: ('main', 'Jun 23 2023 22:41:52')
+2023-09-25 17:59:19,475:INFO:machine: arm64
+2023-09-25 17:59:19,475:INFO:platform: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:59:19,476:INFO:Memory: svmem(total=8589934592, available=2271707136, percent=73.6, used=3498672128, free=100745216, active=2149482496, inactive=2169061376, wired=1349189632)
+2023-09-25 17:59:19,476:INFO:Physical Core: 8
+2023-09-25 17:59:19,476:INFO:Logical Core: 8
+2023-09-25 17:59:19,476:INFO:Checking libraries
+2023-09-25 17:59:19,476:INFO:System:
+2023-09-25 17:59:19,476:INFO:    python: 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
+2023-09-25 17:59:19,476:INFO:executable: /Users/chaitanya/Documents/Projects/automl/env/bin/python3
+2023-09-25 17:59:19,476:INFO:   machine: macOS-13.6-arm64-arm-64bit
+2023-09-25 17:59:19,476:INFO:PyCaret required dependencies:
+2023-09-25 17:59:19,476:INFO:                 pip: 23.2.1
+2023-09-25 17:59:19,476:INFO:          setuptools: 65.5.0
+2023-09-25 17:59:19,476:INFO:             pycaret: 3.1.0
+2023-09-25 17:59:19,476:INFO:             IPython: 8.15.0
+2023-09-25 17:59:19,476:INFO:          ipywidgets: 8.1.1
+2023-09-25 17:59:19,476:INFO:                tqdm: 4.66.1
+2023-09-25 17:59:19,477:INFO:               numpy: 1.23.5
+2023-09-25 17:59:19,477:INFO:              pandas: 1.5.3
+2023-09-25 17:59:19,477:INFO:              jinja2: 3.1.2
+2023-09-25 17:59:19,477:INFO:               scipy: 1.10.1
+2023-09-25 17:59:19,477:INFO:              joblib: 1.3.2
+2023-09-25 17:59:19,477:INFO:             sklearn: 1.2.2
+2023-09-25 17:59:19,477:INFO:                pyod: 1.1.0
+2023-09-25 17:59:19,477:INFO:            imblearn: 0.11.0
+2023-09-25 17:59:19,477:INFO:   category_encoders: 2.6.2
+2023-09-25 17:59:19,477:INFO:            lightgbm: 4.1.0
+2023-09-25 17:59:19,477:INFO:               numba: 0.58.0
+2023-09-25 17:59:19,477:INFO:            requests: 2.31.0
+2023-09-25 17:59:19,477:INFO:          matplotlib: 3.8.0
+2023-09-25 17:59:19,477:INFO:          scikitplot: 0.3.7
+2023-09-25 17:59:19,477:INFO:         yellowbrick: 1.5
+2023-09-25 17:59:19,477:INFO:              plotly: 5.17.0
+2023-09-25 17:59:19,477:INFO:    plotly-resampler: Not installed
+2023-09-25 17:59:19,478:INFO:             kaleido: 0.2.1
+2023-09-25 17:59:19,478:INFO:           schemdraw: 0.15
+2023-09-25 17:59:19,478:INFO:         statsmodels: 0.14.0
+2023-09-25 17:59:19,478:INFO:              sktime: 0.21.1
+2023-09-25 17:59:19,478:INFO:               tbats: 1.1.3
+2023-09-25 17:59:19,478:INFO:            pmdarima: 2.0.3
+2023-09-25 17:59:19,478:INFO:              psutil: 5.9.5
+2023-09-25 17:59:19,478:INFO:          markupsafe: 2.1.3
+2023-09-25 17:59:19,478:INFO:             pickle5: Not installed
+2023-09-25 17:59:19,478:INFO:         cloudpickle: 2.2.1
+2023-09-25 17:59:19,478:INFO:         deprecation: 2.1.0
+2023-09-25 17:59:19,478:INFO:              xxhash: 3.3.0
+2023-09-25 17:59:19,478:INFO:           wurlitzer: 3.0.3
+2023-09-25 17:59:19,478:INFO:PyCaret optional dependencies:
+2023-09-25 17:59:19,478:INFO:                shap: Not installed
+2023-09-25 17:59:19,478:INFO:           interpret: Not installed
+2023-09-25 17:59:19,479:INFO:                umap: Not installed
+2023-09-25 17:59:19,479:INFO:     ydata_profiling: 4.5.1
+2023-09-25 17:59:19,479:INFO:  explainerdashboard: Not installed
+2023-09-25 17:59:19,479:INFO:             autoviz: Not installed
+2023-09-25 17:59:19,479:INFO:           fairlearn: Not installed
+2023-09-25 17:59:19,479:INFO:          deepchecks: Not installed
+2023-09-25 17:59:19,479:INFO:             xgboost: Not installed
+2023-09-25 17:59:19,479:INFO:            catboost: Not installed
+2023-09-25 17:59:19,479:INFO:              kmodes: Not installed
+2023-09-25 17:59:19,479:INFO:             mlxtend: Not installed
+2023-09-25 17:59:19,479:INFO:       statsforecast: Not installed
+2023-09-25 17:59:19,479:INFO:        tune_sklearn: Not installed
+2023-09-25 17:59:19,479:INFO:                 ray: Not installed
+2023-09-25 17:59:19,479:INFO:            hyperopt: Not installed
+2023-09-25 17:59:19,479:INFO:              optuna: Not installed
+2023-09-25 17:59:19,479:INFO:               skopt: Not installed
+2023-09-25 17:59:19,480:INFO:              mlflow: Not installed
+2023-09-25 17:59:19,480:INFO:              gradio: Not installed
+2023-09-25 17:59:19,480:INFO:             fastapi: Not installed
+2023-09-25 17:59:19,480:INFO:             uvicorn: Not installed
+2023-09-25 17:59:19,480:INFO:              m2cgen: Not installed
+2023-09-25 17:59:19,480:INFO:           evidently: Not installed
+2023-09-25 17:59:19,480:INFO:               fugue: Not installed
+2023-09-25 17:59:19,480:INFO:           streamlit: 1.27.0
+2023-09-25 17:59:19,480:INFO:             prophet: Not installed
+2023-09-25 17:59:19,480:INFO:None
+2023-09-25 17:59:19,480:INFO:Set up data.
+2023-09-25 17:59:19,488:INFO:Set up folding strategy.
+2023-09-25 17:59:19,488:INFO:Set up train/test split.
+2023-09-25 17:59:19,495:INFO:Set up index.
+2023-09-25 17:59:19,495:INFO:Assigning column types.
+2023-09-25 17:59:19,497:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-09-25 17:59:19,531:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-09-25 17:59:19,533:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-09-25 17:59:19,556:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,557:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,588:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-09-25 17:59:19,588:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-09-25 17:59:19,608:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,608:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,608:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-09-25 17:59:19,640:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-09-25 17:59:19,659:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,659:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,691:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-09-25 17:59:19,710:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,711:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,711:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-09-25 17:59:19,762:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,762:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,813:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,813:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,814:INFO:Preparing preprocessing pipeline...
+2023-09-25 17:59:19,815:INFO:Set up label encoding.
+2023-09-25 17:59:19,815:INFO:Set up simple imputation.
+2023-09-25 17:59:19,827:INFO:Finished creating preprocessing pipeline.
+2023-09-25 17:59:19,831:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['N', 'P', 'K', 'temperature',
+                                             'humidity', 'ph', 'rainfall'],
+                                    transformer=SimpleImputer(add_i...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False)
+2023-09-25 17:59:19,831:INFO:Creating final display dataframe.
+2023-09-25 17:59:19,878:INFO:Setup _display_container:                     Description                                              Value
+0                    Session id                                               1726
+1                        Target                                              label
+2                   Target type                                         Multiclass
+3                Target mapping  apple: 0, banana: 1, blackgram: 2, chickpea: 3...
+4           Original data shape                                          (2200, 8)
+5        Transformed data shape                                          (2200, 8)
+6   Transformed train set shape                                          (1540, 8)
+7    Transformed test set shape                                           (660, 8)
+8              Numeric features                                                  7
+9                    Preprocess                                               True
+10              Imputation type                                             simple
+11           Numeric imputation                                               mean
+12       Categorical imputation                                               mode
+13               Fold Generator                                    StratifiedKFold
+14                  Fold Number                                                 10
+15                     CPU Jobs                                                 -1
+16                      Use GPU                                              False
+17               Log Experiment                                              False
+18              Experiment Name                                   clf-default-name
+19                          USI                                               7a1d
+2023-09-25 17:59:19,932:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,932:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,983:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,984:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-09-25 17:59:19,984:INFO:setup() successfully completed in 0.51s...............
+2023-09-25 17:59:19,986:INFO:Initializing compare_models()
+2023-09-25 17:59:19,987:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2023-09-25 17:59:19,987:INFO:Checking exceptions
+2023-09-25 17:59:19,989:INFO:Preparing display monitor
+2023-09-25 17:59:19,990:INFO:Initializing Logistic Regression
+2023-09-25 17:59:19,990:INFO:Total runtime is 8.821487426757813e-07 minutes
+2023-09-25 17:59:19,990:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:19,991:INFO:Initializing create_model()
+2023-09-25 17:59:19,991:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:19,991:INFO:Checking exceptions
+2023-09-25 17:59:19,991:INFO:Importing libraries
+2023-09-25 17:59:19,991:INFO:Copying training dataset
+2023-09-25 17:59:19,993:INFO:Defining folds
+2023-09-25 17:59:19,993:INFO:Declaring metric variables
+2023-09-25 17:59:19,993:INFO:Importing untrained model
+2023-09-25 17:59:19,993:INFO:Logistic Regression Imported successfully
+2023-09-25 17:59:19,993:INFO:Starting cross validation
+2023-09-25 17:59:19,994:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:24,602:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:24,650:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:24,651:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:24,669:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:24,675:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:24,675:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:24,683:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:24,766:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:25,325:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:25,351:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2023-09-25 17:59:25,371:INFO:Calculating mean and std
+2023-09-25 17:59:25,372:INFO:Creating metrics dataframe
+2023-09-25 17:59:25,377:INFO:Uploading results into container
+2023-09-25 17:59:25,377:INFO:Uploading model into container now
+2023-09-25 17:59:25,378:INFO:_master_model_container: 1
+2023-09-25 17:59:25,378:INFO:_display_container: 2
+2023-09-25 17:59:25,378:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=1726, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-09-25 17:59:25,378:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:25,506:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:25,506:INFO:Creating metrics dataframe
+2023-09-25 17:59:25,509:INFO:Initializing K Neighbors Classifier
+2023-09-25 17:59:25,509:INFO:Total runtime is 0.09197898308436075 minutes
+2023-09-25 17:59:25,509:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:25,509:INFO:Initializing create_model()
+2023-09-25 17:59:25,509:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:25,509:INFO:Checking exceptions
+2023-09-25 17:59:25,509:INFO:Importing libraries
+2023-09-25 17:59:25,509:INFO:Copying training dataset
+2023-09-25 17:59:25,512:INFO:Defining folds
+2023-09-25 17:59:25,512:INFO:Declaring metric variables
+2023-09-25 17:59:25,512:INFO:Importing untrained model
+2023-09-25 17:59:25,512:INFO:K Neighbors Classifier Imported successfully
+2023-09-25 17:59:25,512:INFO:Starting cross validation
+2023-09-25 17:59:25,513:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:25,655:INFO:Calculating mean and std
+2023-09-25 17:59:25,655:INFO:Creating metrics dataframe
+2023-09-25 17:59:25,657:INFO:Uploading results into container
+2023-09-25 17:59:25,658:INFO:Uploading model into container now
+2023-09-25 17:59:25,658:INFO:_master_model_container: 2
+2023-09-25 17:59:25,658:INFO:_display_container: 2
+2023-09-25 17:59:25,658:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2023-09-25 17:59:25,658:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:25,721:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:25,721:INFO:Creating metrics dataframe
+2023-09-25 17:59:25,726:INFO:Initializing Naive Bayes
+2023-09-25 17:59:25,726:INFO:Total runtime is 0.09559091726938883 minutes
+2023-09-25 17:59:25,726:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:25,726:INFO:Initializing create_model()
+2023-09-25 17:59:25,726:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:25,726:INFO:Checking exceptions
+2023-09-25 17:59:25,726:INFO:Importing libraries
+2023-09-25 17:59:25,726:INFO:Copying training dataset
+2023-09-25 17:59:25,728:INFO:Defining folds
+2023-09-25 17:59:25,728:INFO:Declaring metric variables
+2023-09-25 17:59:25,728:INFO:Importing untrained model
+2023-09-25 17:59:25,729:INFO:Naive Bayes Imported successfully
+2023-09-25 17:59:25,729:INFO:Starting cross validation
+2023-09-25 17:59:25,729:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:25,800:INFO:Calculating mean and std
+2023-09-25 17:59:25,801:INFO:Creating metrics dataframe
+2023-09-25 17:59:25,803:INFO:Uploading results into container
+2023-09-25 17:59:25,803:INFO:Uploading model into container now
+2023-09-25 17:59:25,804:INFO:_master_model_container: 3
+2023-09-25 17:59:25,804:INFO:_display_container: 2
+2023-09-25 17:59:25,804:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-09-25 17:59:25,804:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:25,865:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:25,865:INFO:Creating metrics dataframe
+2023-09-25 17:59:25,868:INFO:Initializing Decision Tree Classifier
+2023-09-25 17:59:25,868:INFO:Total runtime is 0.09796655178070068 minutes
+2023-09-25 17:59:25,868:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:25,869:INFO:Initializing create_model()
+2023-09-25 17:59:25,869:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:25,869:INFO:Checking exceptions
+2023-09-25 17:59:25,869:INFO:Importing libraries
+2023-09-25 17:59:25,869:INFO:Copying training dataset
+2023-09-25 17:59:25,871:INFO:Defining folds
+2023-09-25 17:59:25,871:INFO:Declaring metric variables
+2023-09-25 17:59:25,871:INFO:Importing untrained model
+2023-09-25 17:59:25,871:INFO:Decision Tree Classifier Imported successfully
+2023-09-25 17:59:25,871:INFO:Starting cross validation
+2023-09-25 17:59:25,872:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:25,952:INFO:Calculating mean and std
+2023-09-25 17:59:25,952:INFO:Creating metrics dataframe
+2023-09-25 17:59:25,955:INFO:Uploading results into container
+2023-09-25 17:59:25,955:INFO:Uploading model into container now
+2023-09-25 17:59:25,955:INFO:_master_model_container: 4
+2023-09-25 17:59:25,955:INFO:_display_container: 2
+2023-09-25 17:59:25,955:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=1726, splitter='best')
+2023-09-25 17:59:25,955:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:26,017:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:26,017:INFO:Creating metrics dataframe
+2023-09-25 17:59:26,020:INFO:Initializing SVM - Linear Kernel
+2023-09-25 17:59:26,020:INFO:Total runtime is 0.10049888690312704 minutes
+2023-09-25 17:59:26,020:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:26,020:INFO:Initializing create_model()
+2023-09-25 17:59:26,021:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:26,021:INFO:Checking exceptions
+2023-09-25 17:59:26,021:INFO:Importing libraries
+2023-09-25 17:59:26,021:INFO:Copying training dataset
+2023-09-25 17:59:26,022:INFO:Defining folds
+2023-09-25 17:59:26,023:INFO:Declaring metric variables
+2023-09-25 17:59:26,023:INFO:Importing untrained model
+2023-09-25 17:59:26,023:INFO:SVM - Linear Kernel Imported successfully
+2023-09-25 17:59:26,023:INFO:Starting cross validation
+2023-09-25 17:59:26,024:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:26,078:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,082:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,105:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,108:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,110:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,112:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,116:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,131:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,132:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,133:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,134:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,135:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,135:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,143:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,146:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,154:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,155:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,156:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,157:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,171:INFO:Calculating mean and std
+2023-09-25 17:59:26,171:INFO:Creating metrics dataframe
+2023-09-25 17:59:26,174:INFO:Uploading results into container
+2023-09-25 17:59:26,174:INFO:Uploading model into container now
+2023-09-25 17:59:26,174:INFO:_master_model_container: 5
+2023-09-25 17:59:26,174:INFO:_display_container: 2
+2023-09-25 17:59:26,174:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=1726, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2023-09-25 17:59:26,174:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:26,236:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:26,236:INFO:Creating metrics dataframe
+2023-09-25 17:59:26,240:INFO:Initializing Ridge Classifier
+2023-09-25 17:59:26,240:INFO:Total runtime is 0.10415553251902263 minutes
+2023-09-25 17:59:26,240:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:26,240:INFO:Initializing create_model()
+2023-09-25 17:59:26,240:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:26,240:INFO:Checking exceptions
+2023-09-25 17:59:26,240:INFO:Importing libraries
+2023-09-25 17:59:26,240:INFO:Copying training dataset
+2023-09-25 17:59:26,242:INFO:Defining folds
+2023-09-25 17:59:26,242:INFO:Declaring metric variables
+2023-09-25 17:59:26,242:INFO:Importing untrained model
+2023-09-25 17:59:26,242:INFO:Ridge Classifier Imported successfully
+2023-09-25 17:59:26,242:INFO:Starting cross validation
+2023-09-25 17:59:26,243:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:26,268:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,270:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,271:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,271:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,273:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,274:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,275:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,276:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,276:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,277:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,278:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,280:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,284:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,286:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,287:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,289:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,289:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,291:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,292:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/pycaret/internal/metrics.py", line 182, in _score
+    return super()._score(
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-09-25 17:59:26,295:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:26,299:INFO:Calculating mean and std
+2023-09-25 17:59:26,300:INFO:Creating metrics dataframe
+2023-09-25 17:59:26,302:INFO:Uploading results into container
+2023-09-25 17:59:26,302:INFO:Uploading model into container now
+2023-09-25 17:59:26,303:INFO:_master_model_container: 6
+2023-09-25 17:59:26,303:INFO:_display_container: 2
+2023-09-25 17:59:26,303:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, positive=False, random_state=1726, solver='auto',
+                tol=0.0001)
+2023-09-25 17:59:26,303:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:26,364:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:26,364:INFO:Creating metrics dataframe
+2023-09-25 17:59:26,368:INFO:Initializing Random Forest Classifier
+2023-09-25 17:59:26,368:INFO:Total runtime is 0.10629248221715291 minutes
+2023-09-25 17:59:26,368:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:26,368:INFO:Initializing create_model()
+2023-09-25 17:59:26,368:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:26,368:INFO:Checking exceptions
+2023-09-25 17:59:26,368:INFO:Importing libraries
+2023-09-25 17:59:26,368:INFO:Copying training dataset
+2023-09-25 17:59:26,370:INFO:Defining folds
+2023-09-25 17:59:26,370:INFO:Declaring metric variables
+2023-09-25 17:59:26,370:INFO:Importing untrained model
+2023-09-25 17:59:26,371:INFO:Random Forest Classifier Imported successfully
+2023-09-25 17:59:26,371:INFO:Starting cross validation
+2023-09-25 17:59:26,371:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:27,158:INFO:Calculating mean and std
+2023-09-25 17:59:27,159:INFO:Creating metrics dataframe
+2023-09-25 17:59:27,161:INFO:Uploading results into container
+2023-09-25 17:59:27,162:INFO:Uploading model into container now
+2023-09-25 17:59:27,162:INFO:_master_model_container: 7
+2023-09-25 17:59:27,162:INFO:_display_container: 2
+2023-09-25 17:59:27,162:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=1726, verbose=0, warm_start=False)
+2023-09-25 17:59:27,162:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:27,224:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:27,224:INFO:Creating metrics dataframe
+2023-09-25 17:59:27,227:INFO:Initializing Quadratic Discriminant Analysis
+2023-09-25 17:59:27,228:INFO:Total runtime is 0.1206215500831604 minutes
+2023-09-25 17:59:27,228:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:27,228:INFO:Initializing create_model()
+2023-09-25 17:59:27,228:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:27,228:INFO:Checking exceptions
+2023-09-25 17:59:27,228:INFO:Importing libraries
+2023-09-25 17:59:27,228:INFO:Copying training dataset
+2023-09-25 17:59:27,230:INFO:Defining folds
+2023-09-25 17:59:27,230:INFO:Declaring metric variables
+2023-09-25 17:59:27,230:INFO:Importing untrained model
+2023-09-25 17:59:27,230:INFO:Quadratic Discriminant Analysis Imported successfully
+2023-09-25 17:59:27,230:INFO:Starting cross validation
+2023-09-25 17:59:27,231:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:27,310:INFO:Calculating mean and std
+2023-09-25 17:59:27,311:INFO:Creating metrics dataframe
+2023-09-25 17:59:27,313:INFO:Uploading results into container
+2023-09-25 17:59:27,313:INFO:Uploading model into container now
+2023-09-25 17:59:27,313:INFO:_master_model_container: 8
+2023-09-25 17:59:27,313:INFO:_display_container: 2
+2023-09-25 17:59:27,314:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2023-09-25 17:59:27,314:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:27,375:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:27,375:INFO:Creating metrics dataframe
+2023-09-25 17:59:27,378:INFO:Initializing Ada Boost Classifier
+2023-09-25 17:59:27,378:INFO:Total runtime is 0.12313374678293865 minutes
+2023-09-25 17:59:27,378:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:27,379:INFO:Initializing create_model()
+2023-09-25 17:59:27,379:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:27,379:INFO:Checking exceptions
+2023-09-25 17:59:27,379:INFO:Importing libraries
+2023-09-25 17:59:27,379:INFO:Copying training dataset
+2023-09-25 17:59:27,381:INFO:Defining folds
+2023-09-25 17:59:27,381:INFO:Declaring metric variables
+2023-09-25 17:59:27,381:INFO:Importing untrained model
+2023-09-25 17:59:27,381:INFO:Ada Boost Classifier Imported successfully
+2023-09-25 17:59:27,381:INFO:Starting cross validation
+2023-09-25 17:59:27,382:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:27,600:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,605:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,607:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,612:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,618:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,619:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,622:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,633:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,788:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,794:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 17:59:27,804:INFO:Calculating mean and std
+2023-09-25 17:59:27,804:INFO:Creating metrics dataframe
+2023-09-25 17:59:27,807:INFO:Uploading results into container
+2023-09-25 17:59:27,807:INFO:Uploading model into container now
+2023-09-25 17:59:27,807:INFO:_master_model_container: 9
+2023-09-25 17:59:27,807:INFO:_display_container: 2
+2023-09-25 17:59:27,808:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator='deprecated',
+                   estimator=None, learning_rate=1.0, n_estimators=50,
+                   random_state=1726)
+2023-09-25 17:59:27,808:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:27,870:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:27,871:INFO:Creating metrics dataframe
+2023-09-25 17:59:27,874:INFO:Initializing Gradient Boosting Classifier
+2023-09-25 17:59:27,874:INFO:Total runtime is 0.13139224847157796 minutes
+2023-09-25 17:59:27,874:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:27,874:INFO:Initializing create_model()
+2023-09-25 17:59:27,874:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:27,874:INFO:Checking exceptions
+2023-09-25 17:59:27,874:INFO:Importing libraries
+2023-09-25 17:59:27,874:INFO:Copying training dataset
+2023-09-25 17:59:27,876:INFO:Defining folds
+2023-09-25 17:59:27,876:INFO:Declaring metric variables
+2023-09-25 17:59:27,876:INFO:Importing untrained model
+2023-09-25 17:59:27,876:INFO:Gradient Boosting Classifier Imported successfully
+2023-09-25 17:59:27,877:INFO:Starting cross validation
+2023-09-25 17:59:27,877:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:45,779:INFO:Calculating mean and std
+2023-09-25 17:59:45,780:INFO:Creating metrics dataframe
+2023-09-25 17:59:45,782:INFO:Uploading results into container
+2023-09-25 17:59:45,783:INFO:Uploading model into container now
+2023-09-25 17:59:45,783:INFO:_master_model_container: 10
+2023-09-25 17:59:45,783:INFO:_display_container: 2
+2023-09-25 17:59:45,783:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=1726, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2023-09-25 17:59:45,783:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:45,845:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:45,845:INFO:Creating metrics dataframe
+2023-09-25 17:59:45,848:INFO:Initializing Linear Discriminant Analysis
+2023-09-25 17:59:45,848:INFO:Total runtime is 0.4309625188509624 minutes
+2023-09-25 17:59:45,848:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:45,848:INFO:Initializing create_model()
+2023-09-25 17:59:45,848:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:45,848:INFO:Checking exceptions
+2023-09-25 17:59:45,848:INFO:Importing libraries
+2023-09-25 17:59:45,848:INFO:Copying training dataset
+2023-09-25 17:59:45,850:INFO:Defining folds
+2023-09-25 17:59:45,850:INFO:Declaring metric variables
+2023-09-25 17:59:45,850:INFO:Importing untrained model
+2023-09-25 17:59:45,851:INFO:Linear Discriminant Analysis Imported successfully
+2023-09-25 17:59:45,851:INFO:Starting cross validation
+2023-09-25 17:59:45,851:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:45,932:INFO:Calculating mean and std
+2023-09-25 17:59:45,933:INFO:Creating metrics dataframe
+2023-09-25 17:59:45,935:INFO:Uploading results into container
+2023-09-25 17:59:45,936:INFO:Uploading model into container now
+2023-09-25 17:59:45,936:INFO:_master_model_container: 11
+2023-09-25 17:59:45,936:INFO:_display_container: 2
+2023-09-25 17:59:45,936:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2023-09-25 17:59:45,936:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:45,999:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:45,999:INFO:Creating metrics dataframe
+2023-09-25 17:59:46,002:INFO:Initializing Extra Trees Classifier
+2023-09-25 17:59:46,002:INFO:Total runtime is 0.4335278987884522 minutes
+2023-09-25 17:59:46,002:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:46,002:INFO:Initializing create_model()
+2023-09-25 17:59:46,002:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:46,002:INFO:Checking exceptions
+2023-09-25 17:59:46,002:INFO:Importing libraries
+2023-09-25 17:59:46,002:INFO:Copying training dataset
+2023-09-25 17:59:46,004:INFO:Defining folds
+2023-09-25 17:59:46,004:INFO:Declaring metric variables
+2023-09-25 17:59:46,004:INFO:Importing untrained model
+2023-09-25 17:59:46,005:INFO:Extra Trees Classifier Imported successfully
+2023-09-25 17:59:46,005:INFO:Starting cross validation
+2023-09-25 17:59:46,005:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 17:59:46,650:INFO:Calculating mean and std
+2023-09-25 17:59:46,651:INFO:Creating metrics dataframe
+2023-09-25 17:59:46,653:INFO:Uploading results into container
+2023-09-25 17:59:46,653:INFO:Uploading model into container now
+2023-09-25 17:59:46,654:INFO:_master_model_container: 12
+2023-09-25 17:59:46,654:INFO:_display_container: 2
+2023-09-25 17:59:46,654:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=1726, verbose=0, warm_start=False)
+2023-09-25 17:59:46,654:INFO:create_model() successfully completed......................................
+2023-09-25 17:59:46,716:INFO:SubProcess create_model() end ==================================
+2023-09-25 17:59:46,716:INFO:Creating metrics dataframe
+2023-09-25 17:59:46,719:INFO:Initializing Light Gradient Boosting Machine
+2023-09-25 17:59:46,719:INFO:Total runtime is 0.4454771518707276 minutes
+2023-09-25 17:59:46,719:INFO:SubProcess create_model() called ==================================
+2023-09-25 17:59:46,719:INFO:Initializing create_model()
+2023-09-25 17:59:46,719:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 17:59:46,719:INFO:Checking exceptions
+2023-09-25 17:59:46,719:INFO:Importing libraries
+2023-09-25 17:59:46,719:INFO:Copying training dataset
+2023-09-25 17:59:46,721:INFO:Defining folds
+2023-09-25 17:59:46,721:INFO:Declaring metric variables
+2023-09-25 17:59:46,721:INFO:Importing untrained model
+2023-09-25 17:59:46,722:INFO:Light Gradient Boosting Machine Imported successfully
+2023-09-25 17:59:46,722:INFO:Starting cross validation
+2023-09-25 17:59:46,722:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 18:00:21,790:INFO:Calculating mean and std
+2023-09-25 18:00:21,791:INFO:Creating metrics dataframe
+2023-09-25 18:00:21,795:INFO:Uploading results into container
+2023-09-25 18:00:21,796:INFO:Uploading model into container now
+2023-09-25 18:00:21,796:INFO:_master_model_container: 13
+2023-09-25 18:00:21,796:INFO:_display_container: 2
+2023-09-25 18:00:21,797:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=1726, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2023-09-25 18:00:21,797:INFO:create_model() successfully completed......................................
+2023-09-25 18:00:21,884:INFO:SubProcess create_model() end ==================================
+2023-09-25 18:00:21,884:INFO:Creating metrics dataframe
+2023-09-25 18:00:21,887:INFO:Initializing Dummy Classifier
+2023-09-25 18:00:21,887:INFO:Total runtime is 1.0316198150316875 minutes
+2023-09-25 18:00:21,888:INFO:SubProcess create_model() called ==================================
+2023-09-25 18:00:21,888:INFO:Initializing create_model()
+2023-09-25 18:00:21,888:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x170f9a680>, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 18:00:21,888:INFO:Checking exceptions
+2023-09-25 18:00:21,888:INFO:Importing libraries
+2023-09-25 18:00:21,888:INFO:Copying training dataset
+2023-09-25 18:00:21,890:INFO:Defining folds
+2023-09-25 18:00:21,890:INFO:Declaring metric variables
+2023-09-25 18:00:21,890:INFO:Importing untrained model
+2023-09-25 18:00:21,890:INFO:Dummy Classifier Imported successfully
+2023-09-25 18:00:21,890:INFO:Starting cross validation
+2023-09-25 18:00:21,891:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-09-25 18:00:21,915:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,922:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,922:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,928:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,931:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,932:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,941:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,942:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,947:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,949:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-09-25 18:00:21,956:INFO:Calculating mean and std
+2023-09-25 18:00:21,957:INFO:Creating metrics dataframe
+2023-09-25 18:00:21,959:INFO:Uploading results into container
+2023-09-25 18:00:21,959:INFO:Uploading model into container now
+2023-09-25 18:00:21,960:INFO:_master_model_container: 14
+2023-09-25 18:00:21,960:INFO:_display_container: 2
+2023-09-25 18:00:21,960:INFO:DummyClassifier(constant=None, random_state=1726, strategy='prior')
+2023-09-25 18:00:21,960:INFO:create_model() successfully completed......................................
+2023-09-25 18:00:22,021:INFO:SubProcess create_model() end ==================================
+2023-09-25 18:00:22,022:INFO:Creating metrics dataframe
+2023-09-25 18:00:22,026:INFO:Initializing create_model()
+2023-09-25 18:00:22,026:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x12787b220>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-09-25 18:00:22,026:INFO:Checking exceptions
+2023-09-25 18:00:22,026:INFO:Importing libraries
+2023-09-25 18:00:22,026:INFO:Copying training dataset
+2023-09-25 18:00:22,028:INFO:Defining folds
+2023-09-25 18:00:22,028:INFO:Declaring metric variables
+2023-09-25 18:00:22,028:INFO:Importing untrained model
+2023-09-25 18:00:22,028:INFO:Declaring custom model
+2023-09-25 18:00:22,028:INFO:Naive Bayes Imported successfully
+2023-09-25 18:00:22,029:INFO:Cross validation set to False
+2023-09-25 18:00:22,029:INFO:Fitting Model
+2023-09-25 18:00:22,036:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-09-25 18:00:22,036:INFO:create_model() successfully completed......................................
+2023-09-25 18:00:22,106:INFO:_master_model_container: 14
+2023-09-25 18:00:22,106:INFO:_display_container: 2
+2023-09-25 18:00:22,106:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-09-25 18:00:22,106:INFO:compare_models() successfully completed......................................
+2023-09-25 18:00:22,110:INFO:Initializing save_model()
+2023-09-25 18:00:22,110:INFO:save_model(model=GaussianNB(priors=None, var_smoothing=1e-09), model_name=best_model, prep_pipe_=Pipeline(memory=FastMemory(location=/var/folders/9s/rlgzx5sd3fzdj73hpyks68kw0000gn/T/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['N', 'P', 'K', 'temperature',
+                                             'humidity', 'ph', 'rainfall'],
+                                    transformer=SimpleImputer(add_i...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-09-25 18:00:22,110:INFO:Adding model into prep_pipe
+2023-09-25 18:00:22,114:INFO:best_model.pkl saved in current working directory
+2023-09-25 18:00:22,117:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['N', 'P', 'K', 'temperature',
+                                             'humidity', 'ph', 'rainfall'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_fea...
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated'))),
+                ('trained_model',
+                 GaussianNB(priors=None, var_smoothing=1e-09))],
+         verbose=False)
+2023-09-25 18:00:22,117:INFO:save_model() successfully completed......................................
+2023-09-25 18:07:50,367:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:07:50,368:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:07:50,368:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:07:50,368:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:07:51,324:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/numba/core/decorators.py:262: NumbaDeprecationWarning: numba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-09-25 18:07:51,342:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/visions/backends/shared/nan_handling.py:51: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  def hasna(x: np.ndarray) -> bool:
+
+2023-09-25 18:07:51,424:WARNING:/Users/chaitanya/Documents/Projects/automl/main.py:7: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
+2023-09-25 18:09:35,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:09:35,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:09:35,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:09:35,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:09:36,425:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/numba/core/decorators.py:262: NumbaDeprecationWarning: numba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-09-25 18:09:36,429:WARNING:/Users/chaitanya/Documents/Projects/automl/env/lib/python3.10/site-packages/visions/backends/shared/nan_handling.py:51: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  def hasna(x: np.ndarray) -> bool:
+
+2023-09-25 18:09:36,503:WARNING:/Users/chaitanya/Documents/Projects/automl/app.py:7: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
+2023-09-25 18:10:50,030:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:10:50,031:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:10:50,031:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:10:50,031:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-25 18:10:52,240:WARNING:/Users/chaitanya/Documents/Tensorflow/env/lib/python3.10/site-packages/numba/core/decorators.py:262: NumbaDeprecationWarning: [1mnumba.generated_jit is deprecated. Please see the documentation at: https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-generated-jit for more information and advice on a suitable replacement.[0m
+  warnings.warn(msg, NumbaDeprecationWarning)
+
+2023-09-25 18:10:52,260:WARNING:/Users/chaitanya/Documents/Tensorflow/env/lib/python3.10/site-packages/visions/backends/shared/nan_handling.py:51: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  def hasna(x: np.ndarray) -> bool:
+
+2023-09-25 18:10:52,423:WARNING:/Users/chaitanya/Documents/Projects/automl/main.py:7: DeprecationWarning: `import pandas_profiling` is going to be deprecated by April 1st. Please use `import ydata_profiling` instead.
+  import pandas_profiling
+
