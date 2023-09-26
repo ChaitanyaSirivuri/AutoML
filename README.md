@@ -68,12 +68,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Python 3.6 or higher
 
-- streamlit
+- streamlit `pip install streamlit`
 
-- pandas
+- pandas-profiling `pip install pandas-profiling`
 
-- streamlit-pandas-profiling
+- streamlit-pandas-profiling `pip install streamlit-pandas-profiling`
 
-- pycaret
+- pycaret `pip install pycaret`
 
 _Note:_ If you don't have the dataset.csv file in the root directory, you will need to upload your own dataset using the "Upload" option in the sidebar.
