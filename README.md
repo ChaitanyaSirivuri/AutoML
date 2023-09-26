@@ -6,15 +6,15 @@ AutoML is a Streamlit application that runs through all possible machine learnin
 
 # Table of Contents
 
-[Installation](#Installation)
+- [Installation](#Installation)
 
-[Usage](#Usage)
+- [Usage](#Usage)
 
-[Features](#Features)
+- [Features](#Features)
 
-[Contributing](#Contributing)
+- [Contributing](#Contributing)
 
-[License](#License)
+- [License](#License)
 
 ### Installation
 
